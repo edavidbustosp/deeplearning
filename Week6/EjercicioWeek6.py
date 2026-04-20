@@ -102,13 +102,15 @@ plt.plot(history_base.history['val_loss'], label='Base - Val')
 plt.plot(history_reg.history['loss'], label='Reg - Train')
 plt.plot(history_reg.history['val_loss'], label='reg - Val')
 
-plt.title("Comparación de loss")
+plt.title("Comparación de Loss")
 plt.xlabel("Epocas")
 plt.ylabel("Loss")
 plt.legend()
 plt.show()
 
 #Accuracy
+
+print("Generando graficas de Accuracy")
 
 plt.plot(history_base.history['accuracy'], label='Base - Train')
 plt.plot(history_base.history['val_accuracy'], label="Base - Val")

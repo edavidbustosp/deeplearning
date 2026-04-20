@@ -1,0 +1,13 @@
+- En este ejercicio se monta un red neuronal con un modelo regularizado y otro no
+- Modelo sin regularización
+    - Overfiting 
+    - Accuracy Entrenamiento Altos
+    - Accuracy validación es baja
+    - El modelotiene un mejor desempeño en los datos de entrenamiento, pero tiene diferencias significatvas con los datos de validación
+- Modelo egularizado
+    - Generalización
+    - El entrenamiento es un poco pero pero las validaciones son más estables
+    - Menr diferencia entre el entrenamiento y la validación lo cual genera una mejor capacidad de generalización.
+    - REgularización L2
+    - Dropout
+Con menos Overfitting se sacrifica un ajuste perfecto del modelo pero se gana la capacidad de generalizar.
